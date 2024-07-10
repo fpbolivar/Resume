@@ -64,19 +64,26 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> with a strong focus on iOS development, currently seeking new opportunities in this field.
-      </p>
-      <p className='prose-sm text-stone-200 sm:prose-base lg:prose-lg'>
-      I have extensive experience as a Mobile Developer, specializing in native iOS applications using Xcode and Swift. I also have proficiency in Android development with Android Studio and Kotlin, as well as cross-platform development using React Native, Xamarin, Unity, and Flutter.
-      </p>
-      <p className='prose-sm text-stone-200 sm:prose-base lg:prose-lg'>
-      My background includes solid skills in C#, .NET, Unity engine, web development, and backend server development, which complement my iOS expertise.
-      </p>
-      <p className='prose-sm text-stone-200 sm:prose-base lg:prose-lg'>
-      Additionally, I have worked with other programming languages such as Python, C++, and SQL, and have experience with tools like MongoDB, Firebase, and REST APIs.
+        I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> with a strong focus on mobile
+        development, currently seeking new opportunities in this field.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      Currently, I serve as a Lead Engineer and Project Manager at <strong className="text-stone-100">Forty-Seven Apps LLC</strong>, where I lead the development of various mobile applications and websites.
+        I have extensive experience as a Mobile Developer, specializing in native iOS applications using Xcode and
+        Swift. I also have proficiency in Android development with Android Studio and Kotlin, as well as cross-platform
+        development using React Native, Xamarin, Unity, and Flutter.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        My background includes solid skills in C#, .NET, Unity engine, web development, and backend server development,
+        which complement my mobile development expertise.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        Additionally, I have worked with other programming languages such as Python, C++, and SQL, and have experience
+        with tools like MongoDB, Firebase, and REST APIs.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        Currently, I serve as a Lead Engineer and Project Manager at{' '}
+        <strong className="text-stone-100">Forty-Seven Apps LLC</strong>, where I lead the development of various mobile
+        applications and websites.
       </p>
     </>
   ),
