@@ -64,20 +64,19 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently open to a new opportunity to work.
+      I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> with a strong focus on iOS development, currently seeking new opportunities in this field.
       </p>
       <p className='prose-sm text-stone-200 sm:prose-base lg:prose-lg'>
-        I have good experience as a C# Developer with experience in .NET ,Unity engine , Web and BackEnd Server Developer.
+      I have extensive experience as a Mobile Developer, specializing in native iOS applications using Xcode and Swift. I also have proficiency in Android development with Android Studio and Kotlin, as well as cross-platform development using React Native, Xamarin, Unity, and Flutter.
       </p>
       <p className='prose-sm text-stone-200 sm:prose-base lg:prose-lg'>
-        Great experience as a Mobile Developer with native applications using XCode and SWIFT & Android studio and Kotlin, as well as Cross platform with React-Native, Unity, Xamarin and Flutter.
+      My background includes solid skills in C#, .NET, Unity engine, web development, and backend server development, which complement my iOS expertise.
       </p>
       <p className='prose-sm text-stone-200 sm:prose-base lg:prose-lg'>
-        Previous experience with other programming lenguages such as Python, C++ ,SQL, and others. with experience in tools such as MongoDB,Firebase,Rest-API and others.(Everything can be found on my Resume)
+      Additionally, I have worked with other programming languages such as Python, C++, and SQL, and have experience with tools like MongoDB, Firebase, and REST APIs.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch as a Lead Engineer and Project manager at  <strong className="text-stone-100">Forty-Seven Apps LLC</strong>,
-        helping build Different Mobile Applications and websites.
+      Currently, I serve as a Lead Engineer and Project Manager at <strong className="text-stone-100">Forty-Seven Apps LLC</strong>, where I lead the development of various mobile applications and websites.
       </p>
     </>
   ),
@@ -101,9 +100,9 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: ` Results-driven senior software engineer with over 4 years of experience specializing in mobile application development using Flutter, 
+  Java, and Swift. Proficient in Unity, Firebase, and AWS, with a track record of successfully launching apps like Daly App and Raaise 
+  App. Led backend development projects, optimizing performance and enhancing user experiences for high-traffic applications.`,
   aboutItems: [
     {label: 'Location', text: 'Katy, TX', Icon: MapIcon},
     {label: 'Age', text: '25', Icon: CalendarIcon},
@@ -127,6 +126,23 @@ export const skills: SkillGroup[] = [
       {
         name: 'Spanish',
         level: 10,
+      },
+    ],
+  },
+  {
+    name: 'Mobile development',
+    skills: [
+      {
+        name: 'IOS Developer',
+        level: 10,
+      },
+      {
+        name: 'Flutter',
+        level: 6,
+      },
+      {
+        name: 'Unity',
+        level: 9,
       },
     ],
   },
@@ -161,23 +177,6 @@ export const skills: SkillGroup[] = [
       {
         name: 'API',
         level: 7,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 7,
-      },
-      {
-        name: 'Flutter',
-        level: 6,
-      },
-      {
-        name: 'Unity',
-        level: 9,
       },
     ],
   },
